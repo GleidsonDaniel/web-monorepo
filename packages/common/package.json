@@ -2,5 +2,6 @@
   "name": "@web-monorepo/common",
   "version": "1.0.0",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "main": "./src/index.ts"
 }
