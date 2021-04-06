@@ -1,0 +1,12 @@
+{
+  "name": "web-monorepo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:GleidsonDaniel/web-monorepo.git",
+  "author": "Daniel <gleidson10daniel@hotmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
