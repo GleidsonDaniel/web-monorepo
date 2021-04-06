@@ -14,7 +14,7 @@ export async function buildApp(options: BuildOptions) {
   const { env } = options;
 
   await build({
-    entryPoints: ["packages/app/src/index.tsx"], // We read the React application from this entrypoint
+    entryPoints: ["packages/app/index.tsx"], // We read the React application from this entrypoint
     outfile: "packages/app/public/script.js", // We output a single file in the public/ folder (remember that the "script.js" is used inside our HTML page)
     define: {
       "process.env.NODE_ENV": `"${env}"`, // We need to define the Node.js environment in which the app is built
